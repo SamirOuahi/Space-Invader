@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#invader {
+  height: 20rem;
+  width: 20rem;
+  display: grid;
+}
+
+.grid-container {
+  background-color: #5256c9;
+  min-height: calc(100vh - 150px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pixel {
+  border: 1px solid #808e9b;
+  background-color: #d2dae2;
+}
+
+.current {
+  transform: scale(1.2);
+  border: 3px solid black;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.plain {
+  background-color: #485460;
+}
+
+.empty {
+  background-color: #d2dae2;
+}
+
+.green {
+  background-color: #79e983;
+  border-color: #57b274;
+}
+
+.yellow {
+  background-color: #fbc048;
+  border-color: #f7a835;
+}
+
+.configuration {
+  height: 150px;
+  background-color: #272bad;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.configuration-input {
+  padding: 1em;
+  border: 0;
+  font-size: 1.2em;
+  border: 1px solid #272bad;
+}
+
+.configuration-input:first-child {
+  border-radius: 0.5em 0 0 0.5em;
+}
+
+.configuration-button {
+  padding: 1em;
+  border: 0;
+  border-radius: 0 0.5em 0.5em 0;
+  background-color: #9957e4;
+  color: white;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+.palette-container {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  padding: 1rem;
+  background-color: #272bad;
+  gap: 1rem;
+}
+
+.palette {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 100%;
+}
